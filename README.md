@@ -1,44 +1,8 @@
-# org.project60.bankingboilerplate
+# CiviBanking Boilerplate Code
 
-![Screenshot](/images/screenshot.png)
+This extension contains boilerplate code for custom CiviBanking (https://github.com/Project60/org.project60.banking) plugins.
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+Currently, there is boilerplate code for:
+* custom PostProcessor
 
-The extension is licensed under [AGPL-3.0](LICENSE.txt).
-
-## Requirements
-
-* PHP v5.4+
-* CiviCRM (*FIXME: Version number*)
-
-## Installation (Web UI)
-
-This extension has not yet been published for installation via the web UI.
-
-## Installation (CLI, Zip)
-
-Sysadmins and developers may download the `.zip` file for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-cd <extension-dir>
-cv dl org.project60.bankingboilerplate@https://github.com/FIXME/org.project60.bankingboilerplate/archive/master.zip
-```
-
-## Installation (CLI, Git)
-
-Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) repo for this extension and
-install it with the command-line tool [cv](https://github.com/civicrm/cv).
-
-```bash
-git clone https://github.com/FIXME/org.project60.bankingboilerplate.git
-cv en bankingboilerplate
-```
-
-## Usage
-
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
+Remark: It's best not to use this extension directly, you should rather create your own extension and then copy and adapt the class you're interested id.
